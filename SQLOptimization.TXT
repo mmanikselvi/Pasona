@@ -1,0 +1,9 @@
+a) We need to make sure if we have  indexes on the fields that are in our WHERE statements and ON conditions
+
+b)  We need to double  check if we really need LEFT JOINS, if not needed then we should  use INNER JOINs.
+
+c) If the performance is still an issue after tweaking your query, we need to consider deformalizing your schema to eliminate joins
+
+d) WE may also  need to  reduce  the load on the database by using caching applications like sphinxsearch and memcached
+
+e) We need to make sure our joins are only to actual tables and not views.
