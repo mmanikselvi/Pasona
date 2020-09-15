@@ -27,7 +27,7 @@ $deck = array(
 
         $keys = array_keys($personArray);
 		for($i = 0; $i < count($personArray); $i++) {
-		    echo "Person".$i." " ;
+		    echo "Player".$i." " ;
 		    foreach($personArray[$keys[$i]] as  $value) {
 		     if( $value === end( $personArray[$keys[$i]] ))
 		        echo $value ;
